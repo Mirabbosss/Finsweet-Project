@@ -1,0 +1,548 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+/* -------------------- main container -------------- */
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ------------- Header start ------------- */
+
+header {
+  background-color: #232536;
+  border-bottom: 1px solid silver;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: auto;
+}
+
+nav .list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 712px;
+}
+
+nav .list .list-item a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.2s ease-out;
+}
+
+nav .list .list-item a:hover {
+  color: #fff;
+}
+
+.active-link {
+  color: #fff !important;
+}
+
+/* ------------- Header end ---------------- */
+
+
+/* ------------- Main section start ----------- */
+
+/* ------------- Career section start ------------ */
+
+#career {
+  width: 100%;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+
+#career .wrapper .right_top {
+  position: absolute;
+  right: 0;
+}
+
+#career .wrapper {
+  padding-top: 20px;
+  position: relative;
+}
+
+#career h3 {
+  height: 20px;
+  top: 176px;
+  left: 705px;
+  opacity: 0.87px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #232536;
+  margin-top: 10px;
+}
+
+#career h1 {
+  top: 220px;
+  left: 488px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #232536;
+  margin-top: 40px;
+}
+
+#career p {
+  width: 624px;
+  height: 48px;
+  opacity: 0.87px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #232536;
+  margin: 30px auto;
+}
+
+#career .image {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+#career h4 {
+  height: 28px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #232536;
+  margin: 40px auto;
+}
+
+/* ------------- Career section end ------------ */
+
+/* ------------- Positions section start ------------ */
+
+#positions {
+  width: 100%;
+  background-color: #ECF8F9;
+}
+
+#positions .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 100px 10px;
+  padding-left: 100px;
+}
+
+#positions .wrapper .wrapper__card {
+  display: flex;
+  justify-content: space-around;
+}
+
+#positions .wrapper .wrapper__card .wrapper__card--item {
+  background-color: #fff;
+  width: 354px;
+  border: 1px;
+  padding-left: 60px;
+  padding-right: 90px;
+  padding-bottom: 50px;
+}
+
+#positions .wrapper .wrapper__card .wrapper__card--item h1 {
+  height: 28px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: #232536;
+  margin-top: 50px;
+}
+
+#positions .wrapper .wrapper__card .wrapper__card--item p {
+  height: 24px;
+  opacity: 0.6px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #232536;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#positions .wrapper .wrapper__card .wrapper__card--item .wrapper__card--item-text a {
+  height: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #5D5FEF;
+  margin-top: 100px;
+}
+
+/* ------------- Positions section end ------------ */
+
+/* ------------- Work section start ------------ */
+
+#work {
+  width: 100%;
+  background-color: #FAFAFC;
+}
+
+#work .wrapper {
+  padding: 40px 30px;
+}
+
+#work .wrapper .wrapper__top {
+  padding-bottom: 30px;
+}
+
+#work .wrapper .wrapper__top h3 {
+  height: 20px;
+  opacity: 0.87px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-align: left;
+  margin-top: 30px;
+}
+
+#work .wrapper .wrapper__top h1 {
+  width: 624px;
+  height: 108px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #232536;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+#work .wrapper .wrapper__top p {
+  width: 622px;
+  height: 72px;
+  opacity: 0.6px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #232536;
+  margin-bottom: 50px;
+}
+
+#work .wrapper .wrapper__bottom .wrapper__bottom--top {
+  display: flex;
+
+}
+
+#work .wrapper .wrapper__bottom .wrapper__bottom--top-card {
+  width: 418px;
+  height: 188px;
+}
+
+
+
+#work .wrapper .wrapper__bottom .wrapper__bottom--top-card h1 {
+  height: 28px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #232536;
+  margin-top: 15px;
+}
+
+#work .wrapper .wrapper__bottom .wrapper__bottom--top-card p {
+  width: 354px;
+  height: 40px;
+  opacity: 0.6px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #232536;
+  margin-top: 15px;
+}
+
+/* ------------- Work section end ------------ */
+
+/* --------------- Stand section start------------ */
+
+#stand{
+  width: 100%;
+  padding: 30px 0;
+}
+
+#stand .wrapper{
+  background-color: #666DFF;
+  display: flex;
+  column-gap: 0;
+}
+
+#stand .wrapper .card{
+  width: 100%;
+}
+
+#stand .wrapper .card .wrapper_bottom{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 150px;
+}
+
+#stand .wrapper .card .wrapper_bottom h2{
+  width: 113px;
+  height: 20px;
+  top: 5833px;
+  left: 258px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-align: left;
+  color: #FFFFFF;
+  margin-top: -40px;
+}
+
+#stand .wrapper .card .wrapper_bottom p{
+  width: 488px;
+  height: 108px;
+  top: 5866px;
+  left: 256px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+#stand .wrapper .card .wrapper_bottom button input{
+  width: 454px;
+  height: 64px;
+  text-align: left;
+  border: none;
+  cursor: auto;
+  padding-left: 30px;
+}
+
+#stand .wrapper .card .wrapper_bottom button:hover{
+  border: 4px solid #FFA155;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+  box-shadow: 0 0 20px #232536;
+}
+
+/* --------------- Stand section end ------------ */
+
+
+/* ------------- Main section end---------------- */
+
+
+/* --------------- FOOTER SECTION START ------------ */
+
+footer {
+  width: 100%;
+  padding: 30px 0;
+  height: auto;
+}
+
+footer .wrap_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .wrap_top .card {
+  width: 470px;
+  height: 400px;
+}
+
+footer .wrap_top .card h1 {
+  width: 488px;
+  height: 108px;
+  top: 5866px;
+  left: 256px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #232536;
+}
+
+footer .wrap_top .card h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+  color: #232536;
+  margin-top: 40px;
+}
+
+footer .wrap_top .card p {
+  width: 159px;
+  height: 28px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: #232536;
+  margin-top: 40px;
+  margin-bottom: -30px;
+}
+
+footer .wrap_top .nav {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  column-gap: 80px;
+}
+
+footer .wrap_bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 1296px;
+  padding-bottom: 30px;
+}
+
+footer .wrap_top .nav ul {
+  list-style-type: none;
+}
+
+footer .wrap_top .nav ul li {
+  margin-top: 10px;
+}
+
+footer .wrap_top .nav ul a {
+  text-decoration: none;
+}
+
+footer .wrap_top .nav ul .pages a {
+  width: 71.11px;
+  height: 28px;
+  top: 6246px;
+  left: 818px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #232536;
+}
+
+footer .wrap_top .nav ul a {
+  width: 127px;
+  height: 20px;
+  top: 6287px;
+  left: 999px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #232536;
+}
+
+footer .wrap_top .nav ul h2 {
+  color: #232536;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+footer .wrap_bottom button a {
+  text-decoration: none;
+  width: 117px;
+  height: 24px;
+  color: #232536;
+  margin: 10px 20px;
+}
+
+footer .wrap_bottom button {
+  border: none;
+  box-shadow: 3px 3px 5px #757575d8;
+  padding-right: 20px;
+  margin-right: 40px;
+}
+
+footer .wrap_bottom button:hover {
+  box-shadow: 0px 0px 5px #757575d8;
+}
+
+footer .wrap_end {
+  background-color: #FFE6D2;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+footer .wrap_end .left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-left: 40px;
+}
+
+footer .wrap_end .left h1 {
+  height: 24px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+footer .wrap_end .right{
+  display: flex;
+  justify-content: space-between;
+  gap: 26px;
+  padding-right: 40px;
+}
+
+footer .wrap_end .right img{
+  transition: all 0.4s ease-in-out;
+}
+
+footer .wrap_end .right img:hover{
+  transform: scale(1.5);
+}
+
+/* --------------- FOOTER SECTION END ------------ */
